@@ -1,0 +1,208 @@
+/* common */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #EEEFF1;
+}
+
+
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    row-gap: 30px;
+}
+
+.col-6 {
+
+    width: 50%;
+    height: 0 25px;
+}
+
+.col-1 {
+    width: 16.6666%;
+    padding: 0 26px;
+}
+
+
+
+/* common */
+
+/* header */
+header {
+    position: fixed;
+    width: 100%;
+    padding: 28px 0;
+    z-index: 2;
+    background-color: lightgrey;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav>a {
+    display: flex;
+}
+
+.header__nav ul {
+    display: flex;
+    /* column-gap: 42px; */
+    list-style: none;
+}
+
+.header__nav ul li {
+    margin: 0 42px 0 0;
+}
+
+.header__nav ul li:last-child {
+    margin: 0;
+}
+
+.header__nav ul li a {
+    display: inline-block;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-size: 14px;
+    transform: scale(1);
+}
+
+
+
+.header__nav ul li a:hover {
+    color: brown;
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+/* header */
+
+/* main */
+
+#main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.main__wrap {
+    display: flex;
+    justify-content: space-between;
+    /* column-gap: 131px; */
+}
+
+.main__wrap div:first-child {
+    margin: 0 131px 0 0;
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main__wrap div:first-child img {
+    width: calc(100% - 85px);
+    height: 200px;
+}
+
+.main__wrap div:last-child {
+    width: 55%;
+}
+
+.main__wrap div:last-child p {
+    margin: 60px 0;
+}
+
+
+
+/* main */
+
+/* about */
+#about {
+    padding: 119px 0 100px;
+    background: #fff;
+}
+
+#about h2, #about p {
+    text-align: center;
+}
+
+#about h2 {
+    font-weight: 500;
+    font-size: 32px;
+    margin: 0 0 50px 0;
+}
+
+#about p {
+    color: #727272;
+    line-height: 26px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/* about */
+
+
+
+/* project */
+#project {
+    background: #34547A;
+    padding: 100px 0;
+}
+
+.project__row {
+    margin: 0 -26px;
+}
+
+.project__box {
+    display: flex;
+    align-items: center;
+}
+
+.project__box img {
+    margin: 0 20px 0 0;
+}
+
+.project__box p {
+    color: #FFFFFF;
+}
+
+/* project */
+
+/* skills */
+
+.slills {
+
+    padding: 100px 0;
+
+}
+
+.skils__row {
+
+    margin: 0 -25px;
+    align-items: center;
+
+}
+ 
+.skills__first-parent {
+
+    height: 4px;
+
+}
